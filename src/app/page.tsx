@@ -16,6 +16,7 @@ import Cta from "@/components/Cta";
 import Header from "@/components/ui/header";
 import PageIllustration from "@/components/page-illustration";
 import filottest from "@/app/images/flottest.png"
+import Scope from "@/components/Scope";
 
 export default async function Home() {
   const {userId} = await auth()
@@ -98,6 +99,7 @@ export default async function Home() {
       <div>
         <BusinessCategories />
         <FeaturesPlanet />
+        <Scope />
         <LargeTestimonial />
         <Cta />
       </div>
