@@ -1,5 +1,5 @@
-import ssLogin from '@/app/images/ssLogin.png'
-import ssUpload from '@/app/images/ssUpload.png'
+import exPdf from '@/app/images/exPdf.png'
+import exChat from '@/app/images/exChat.png'
 import ssfilottest from '@/app/images/flottest.png'
 import Image from 'next/image'
 
@@ -20,7 +20,7 @@ export default function Scope(){
             <article>
             <div className="flexCenter max-container relative w-full">
                 <Image 
-                  src={ssLogin}
+                  src={exPdf}
                   alt="ss"
                   width={800}
                   height={350}
@@ -45,7 +45,7 @@ export default function Scope(){
             <article>
               <div className="flexCenter max-container relative w-full">
                 <Image 
-                  src={ssUpload}
+                  src={exChat}
                   alt="ss"
                   width={800}
                   height={350}
