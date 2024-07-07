@@ -3,7 +3,7 @@ import ssUpload from "@/app/images/ssUpload.png";
 import ssLogin from "@/app/images/ssLogin.png";
 import ssfilottest from "@/app/images/ssflottest.png";
 
-export default function FeaturesPlanet() {
+export default function Features() {
   return (
     <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900" id="howTo">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">

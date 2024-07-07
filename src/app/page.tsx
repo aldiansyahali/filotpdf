@@ -9,8 +9,8 @@ import { db } from "@/lib/db";
 import { chats } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 import Hero from "@/components/Hero";
-import BusinessCategories from "@/components/BusinessCategories";
-import FeaturesPlanet from "@/components/FeaturesPlanet";
+import Tech from "@/components/Tech";
+import Features from "@/components/Features";
 import LargeTestimonial from "@/components/LargeTestimonial";
 import Cta from "@/components/Cta";
 import Header from "@/components/ui/header";
@@ -97,8 +97,8 @@ export default async function Home() {
     </section>
     {!isAuth && (
       <div>
-        <BusinessCategories />
-        <FeaturesPlanet />
+        <Tech />
+        <Features />
         <Scope />
         <LargeTestimonial />
         <Cta />

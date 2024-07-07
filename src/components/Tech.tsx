@@ -9,7 +9,7 @@ import Logo08 from "@/app/images/logo-08.svg";
 import filot from "@/app/images/filot.png"
 import pinecone from "@/app/images/pinecone2.png"
 
-export default function BusinessCategories() {
+export default function Tech() {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
