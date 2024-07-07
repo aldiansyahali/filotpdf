@@ -16,7 +16,7 @@ export default function Scope(){
             </h3>
           </div>
           {/* Grid */}
-          <div className="bg-gray-800 rounded-2xl grid overflow-hidden lg:grid-cols-2 md:[&>*]:p-20">
+          <div className="bg-gray-900 rounded-2xl grid overflow-hidden lg:grid-cols-2 md:[&>*]:p-20">
             <article>
             <div className="flexCenter max-container relative w-full">
                 <Image 
