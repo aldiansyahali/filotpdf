@@ -16,7 +16,7 @@ export default function Scope(){
             </h3>
           </div>
           {/* Grid */}
-          <div className="grid overflow-hidden lg:grid-cols-3 [&>*]:relative [&>*]:p-6 [&>*]:before:absolute [&>*]:before:bg-gray-200 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-block-start:0] [&>*]:before:[inset-inline-start:-1px] [&>*]:after:absolute [&>*]:after:bg-gray-100 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-block-start:-1px] [&>*]:after:[inset-inline-start:0] md:[&>*]:p-10">
+          <div className="bg-gray-800 rounded-2xl grid overflow-hidden lg:grid-cols-2 md:[&>*]:p-20">
             <article>
             <div className="flexCenter max-container relative w-full">
                 <Image 
@@ -27,7 +27,7 @@ export default function Scope(){
                   className="w-full object-cover object-center rounded-lg"
                 />
               </div>
-              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-600 mt-4">
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-white mt-4">
                 <svg
                   className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -36,10 +36,10 @@ export default function Scope(){
                 >
                   <path d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z" />
                 </svg>
-                <span>Login</span>
+                <span>File PDF berformat satu kolom</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Login menggunakan akun google atau Github.
+                Gunakan artikel, jurnal atau file lainnya dengan PDF berformat satu kolom untuk hasil lebih akurat.
               </p>
             </article>
             <article>
@@ -52,7 +52,7 @@ export default function Scope(){
                   className="w-full object-cover object-center rounded-lg"
                 />
               </div>
-              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-600 mt-4">
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-white mt-4">
                 <svg
                   className="fill-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -61,39 +61,10 @@ export default function Scope(){
                 >
                   <path d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
                 </svg>
-                <span>Upload File PDF</span>
+                <span>Berikan prompt yang spesifik</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Pilih file PDF dengan ukuran maksimal 10 Megabyte. Tunggu sampai muncul notifikasi chat berhasil dibuat
-              </p>
-            </article>
-            <article>
-              <div className="flexCenter max-container relative w-full">
-                <Image 
-                  src={ssfilottest}
-                  alt="ss"
-                  width={800}
-                  height={350}
-                  className="w-full object-cover object-center rounded-lg"
-                />
-              </div>
-              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-600 mt-4">
-                <svg
-                  className="fill-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
-                >
-                  <path
-                    d="M2.248 6.285a1 1 0 0 1-1.916-.57A8.014 8.014 0 0 1 5.715.332a1 1 0 0 1 .57 1.916 6.014 6.014 0 0 0-4.037 4.037Z"
-                    opacity=".3"
-                  />
-                  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z" />
-                </svg>
-                <span>Eksplore file PDF Anda</span>
-              </h3>
-              <p className="text-[15px] text-gray-400">
-                Berikan pertanyaan dan tunggu respon dari filot, berikan perintah dengan spesifik untuk hasil yang lebih akurat.
+                berikan pertanyaan atau perintah secara spesifik untuk hasil yang lebih baik
               </p>
             </article>
           </div>
