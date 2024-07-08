@@ -7,8 +7,8 @@ export default function Scope(){
   return (
     <div>
       <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-white" id="scope">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <div className="py6 md:py-6">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center">
             <h3 className="text-3xl font-bold text-slate-800 md:text-4xl mt-20">
@@ -16,7 +16,7 @@ export default function Scope(){
             </h3>
           </div>
           {/* Grid */}
-          <div className="bg-gray-900 rounded-2xl grid overflow-hidden lg:grid-cols-2 md:[&>*]:p-20">
+          <div className="bg-gray-900 grid overflow-hidden lg:grid-cols-2 [&>*]:relative [&>*]:p-6 [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-block-start:0] [&>*]:before:[inset-inline-start:-1px] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-block-start:-1px] [&>*]:after:[inset-inline-start:0] md:[&>*]:p-10 rounded-2xl">
             <article>
             <div className="flexCenter max-container relative w-full">
                 <Image 

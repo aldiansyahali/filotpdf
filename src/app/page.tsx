@@ -37,7 +37,7 @@ export default async function Home() {
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pb-12 md:pb-20 md:pt-32">
+        <div className="pb-12 md:pb-20 md:pt-44">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h1
