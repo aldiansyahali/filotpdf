@@ -47,7 +47,6 @@ export async function POST(req:Request) {
           AI assistant will not invent anything that is not drawn directly from the context.
           Based on the provided context, what is the exact title of the research paper?
           AI assistant should provide the exact title of the research paper as mentioned in the context block, without translating it to any other language.
-
       `
     }
 
