@@ -36,9 +36,7 @@ export default async function Home() {
     <section>
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        {/* Hero content */}
         <div className="pb-12 md:pb-20 md:pt-44">
-          {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h1
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
