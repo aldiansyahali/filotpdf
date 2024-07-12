@@ -53,7 +53,7 @@ export default async function Home() {
                       {isAuth && firstchat && ( 
                         <>
                         <Link href={`/chat/${firstchat.id}`}>
-                        <Button>Go to chats</Button>
+                        <Button>Buka chat</Button>
                         </Link>
                         </>
                       )}
