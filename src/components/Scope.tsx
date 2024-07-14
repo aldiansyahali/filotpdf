@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Scope(){
   return (
     <div>
-      <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-white" id="scope">
+      <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-white" id="tips">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="py6 md:py-6">
           {/* Section header */}

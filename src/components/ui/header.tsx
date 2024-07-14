@@ -35,12 +35,12 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-5 mr-6">
             <li className="text-gray-700">
               <Link href='#howTo'>
-                How To
+                Petunjuk
               </Link>
             </li>
             <li className="text-gray-700">
-              <Link href='#supportBy'>
-                Support By
+              <Link href='#tips'>
+                Tips
               </Link>
             </li>
             <li>

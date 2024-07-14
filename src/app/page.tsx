@@ -62,7 +62,7 @@ export default async function Home() {
                       {
                         isAuth ? (<FileUpload />):(
                           <Link href='/sign-in'>
-                            <Button className="bg-blue-600 hover:bg-blue-500">Masuk untuk mulai berinteraksi
+                            <Button className="bg-blue-600 hover:bg-blue-500">Ayo Masuk dan Mulai berinteraksi
                               <LogIn className="w-4 h-4 ml-2"/>
                             </Button>
                           </Link>
