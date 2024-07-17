@@ -30,10 +30,8 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it`s become my go-to tool for everything.”
+              “Website ini diharapkan bisa membantu kalian dalam memahami isi artikel karya tulis ilmiah{" "},
+              filot ini juga membantu saya dalam penelitian untuk membuat filot itu sendiri.”
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">M Aldiansyah Ali</span>{" "}
