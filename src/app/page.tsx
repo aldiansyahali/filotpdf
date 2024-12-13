@@ -41,19 +41,19 @@ export default async function Home() {
             <h1
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
             >
-              Mengubah Cara Anda Berinteraksi dengan <span className="text-blue-600">PDF  </span><UserButton afterSignOutUrl="/"/>
+              Discover a Smarter Way to Interact with <span className="text-blue-600">PDF  </span><UserButton afterSignOutUrl="/"/>
             </h1>
             
             <div className="mx-auto max-w-3xl">
               <p className="mb-8 text-lg text-gray-700">
-                Selamat datang di Filot, platform inovatif untuk berinteraksi dengan file PDF. Unggah file PDF Anda dan ajukan pertanyaan. Nikmati pengalaman baru dalam berkomunikasi dengan dokumen digital Anda, hanya di Filot!
+                Welcome to Filot! your gateway to smarter, faster, and more interactive PDF experiences. Simply upload your PDF, ask any question, and let our chatbot provide instant answers. Say goodbye to endless scrolling and searching experience the future of document interaction today!
               </p>           
 
                     <div className="w-full mt-4">
                       {isAuth && firstchat && ( 
                         <>
                         <Link href={`/chat/${firstchat.id}`}>
-                        <Button>Buka chat</Button>
+                        <Button>Open Chat</Button>
                         </Link>
                         </>
                       )}
@@ -62,7 +62,7 @@ export default async function Home() {
                       {
                         isAuth ? (<FileUpload />):(
                           <Link href='/sign-in'>
-                            <Button className="bg-blue-600 hover:bg-blue-500">Ayo Masuk dan Mulai berinteraksi
+                            <Button className="bg-blue-600 hover:bg-blue-500">Join now and transform the way you work with PDF!
                               <LogIn className="w-4 h-4 ml-2"/>
                             </Button>
                           </Link>
