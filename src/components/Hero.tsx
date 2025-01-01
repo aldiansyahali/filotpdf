@@ -17,7 +17,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Mengubah Cara Anda Berinteraksi dengan <span className="text-blue-600">PDF</span> <br className="max-lg:hidden" />
+              Discover a Smarter Way to Interact with <span className="text-blue-600">PDF</span> <br className="max-lg:hidden" />
               
             </h1>
             <div className="mx-auto max-w-3xl">
