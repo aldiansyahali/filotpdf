@@ -26,7 +26,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Selamat datang di Filot, platform inovatif untuk berinteraksi dengan file PDF. Unggah file PDF Anda dan ajukan pertanyaan – biarkan Filot mengubah cara Anda mengelola dokumen. Dengan teknologi canggih kami, dapatkan jawaban cepat dan akurat langsung dari isi PDF tanpa repot. Nikmati pengalaman baru dalam berkomunikasi dengan dokumen digital Anda, hanya di Filot!
+                Welcome to Filot! your gateway to smarter, faster, and more interactive PDF experiences. Simply upload your PDF, ask any question, and let our chatbot provide instant answers. Say goodbye to endless scrolling and searching experience the future of document interaction today!
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
